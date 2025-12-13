@@ -2,7 +2,7 @@
 ## AI-Driven Bird & Nest Detection on Cell Towers (YOLOv8)
 
 ## 📌 Overview
-**Project Falcon** is an end-to-end computer vision system developed as part of the **Verizon AI Studio Final Project**. The project applies deep learning to automatically detect **birds, bird nests, and (optionally) bird species** on cell towers using image data.
+**Project Falcon** is an end-to-end computer vision system developed as part of the **Verizon AI Studio Final Project**. The project applies deep learning to automatically detect **birds, bird nests, and bird species** on cell towers using image data.
 
 The system is designed to help telecommunications providers:
 - Protect avian wildlife
@@ -29,6 +29,35 @@ Each year, **4–40 million bird deaths** are attributed to cell towers. Project
 - Achieved **high-precision nest detection (95%+)**
 - Demonstrated that **data quality outweighed model complexity**
 - Delivered clear **business and conservation impact**
+
+---
+
+## 👥 Team
+Developed by a cross-university team as part of **Verizon AI Studio**:
+
+| Name               | GitHub Handle | Contribution |
+|--------------------|--------------|--------------|
+| Justin Gajewski (Stevens Institute of Technology) | [@JustinGaj](https://github.com/JustinGaj) | Project coordination, model research, data cleaning, preprocessing support |
+| Ayooluwa Olotu (Howard University) | [@ayoolotu](https://github.com/ayoolotu) | Data cleaning, annotation standardization, dataset validation |
+| Aastha Oza (University of Houston) | [@AasthaOza21](https://github.com/AasthaOza21) | Dataset exploration, data preprocessing, augmentation strategies |
+| Valantina Zeremariam (Vassar College) | [@zeremariamvalantina](https://github.com/zeremariamvalantina) | Dataset integration, YOLOv8 training, model refinement, metrics analysis |
+| Kalyn Bui (San Jose State University) | @USERNAME_HERE | Label standardization, evaluation analysis, performance tuning, evaluation metrics |
+| **Anahi Perez (Emory University)** | [@aperez404](https://github.com/aperez404) | Project coordination, dataset exploration, data cleaning, preprocessing support, augmentation strategies |
+| Chris Dollo (University of Maryland, Baltimore County) | [@chrisdollo](https://github.com/chrisdollo) | Dataset exploration, data preprocessing, augmentation strategies |
+| Kenzy Ibrahim (George Mason University) | [@Kenzyi2024](https://github.com/Kenzyi2024) | Dataset integration, YOLOv8 training, model refinement, metrics analysis |
+
+---
+
+## 👩🏽‍💻 **Setup and Installation**
+
+Example edit this
+**How to reproduce our results. Depending on your setup, include:**
+
+* How to clone the repository
+* How to install dependencies
+* How to set up the environment
+* How to access the dataset(s)
+* How to run the notebook or scripts
 
 ---
 
@@ -131,42 +160,14 @@ Planned and proposed extensions include:
 
 ---
 
-## 👥 Team
-Developed by a cross-university team as part of **Verizon AI Studio**:
+## 🙏 Acknowledgments
 
-- **Justin Gajewski** — Stevens Institute of Technology  
-  GitHub: https://github.com/JustinGaj  
-  Contributions: Project coordination, model research, YOLOv8 experimentation, evaluation support
+We would like to extend our sincere thanks to the individuals who supported and guided this project throughout the Verizon AI Studio program:
 
-- **Ayooluwa Olotu** — Howard University  
-  GitHub: https://github.com/ayoolotu
-  Contributions: Data cleaning, annotation standardization, dataset validation 
+- **Audra Zook** — AI Studio Coach  
+- **Teena Thankachan** — Challenge Advisor  
+- **Deepa Thazhathu Veetil** — Challenge Advisor  
+- **Ari Moreno** — Alumni Advisor  
+- **Lara Sabha** — Alumni Advisor  
 
-- **Aastha Oza** — University of Houston  
-  GitHub: https://github.com/AasthaOza21  
-  Contributions: Dataset exploration, data preprocessing, augmentation strategies
-
-- **Valantina Zeremariam** — Vassar College  
-  GitHub: https://github.com/zeremariamvalantina  
-  Contributions: End-to-end pipeline development, dataset integration, YOLOv8 training, model refinement, metrics analysis
-
-- **Kalyn Bui** — San Jose State University  
-  GitHub: https://github.com/USERNAME_HERE  
-  Contributions: Label standardization, evaluation analysis, performance tuning, evaluation metrics
-
-- **Anahi Perez** — Emory University  
-  GitHub: https://github.com/aperez404  
-  Contributions: Project coordination, Dataset Exploration, Data cleaning, preprocessing support, augmentation strategies
-
-- **Chris Dollo** — University of Maryland, Baltimore County  
-  GitHub: https://github.com/chrisdollo  
-  Contributions: Dataset exploration, data preprocessing, augmentation strategies
-
-- **Kenzy Ibrahim** — George Mason University  
-  GitHub: https://github.com/Kenzyi2024  
-  Contributions: Dataset integration, YOLOv8 training, model refinement, metrics analysis
-
----
-
-## 📄 Acknowledgments
-Special thanks to the Verizon AI Studio team, mentors, and advisors for guidance and support throughout the project.
+Their mentorship, technical guidance, and feedback were instrumental in shaping the direction, rigor, and impact of Project Falcon.
