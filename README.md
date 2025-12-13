@@ -41,7 +41,7 @@ Developed by a cross-university team as part of **Verizon AI Studio**:
 | Ayooluwa Olotu (Howard University) | [@ayoolotu](https://github.com/ayoolotu) | Data cleaning, annotation standardization, dataset validation |
 | Aastha Oza (University of Houston) | [@AasthaOza21](https://github.com/AasthaOza21) | Dataset exploration, data preprocessing, augmentation strategies |
 | Valantina Zeremariam (Vassar College) | [@zeremariamvalantina](https://github.com/zeremariamvalantina) | Dataset integration, YOLOv8 training, model refinement, metrics analysis |
-| Kalyn Bui (San Jose State University) | @USERNAME_HERE | Label standardization, evaluation analysis, performance tuning, evaluation metrics |
+| Kalyn Bui (San Jose State University) | [@kalynb700](https://github.com/kalynb700) | Label standardization, evaluation analysis, performance tuning, evaluation metrics |
 | Anahi Perez (Emory University) | [@aperez404](https://github.com/aperez404) | Project coordination, dataset exploration, data cleaning, preprocessing support, augmentation strategies |
 | Chris Dollo (University of Maryland, Baltimore County) | [@chrisdollo](https://github.com/chrisdollo) | Dataset exploration, data preprocessing, augmentation strategies |
 | Kenzy Ibrahim (George Mason University) | [@Kenzyi2024](https://github.com/Kenzyi2024) | Dataset integration, YOLOv8 training, model refinement, metrics analysis |
