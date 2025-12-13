@@ -141,7 +141,7 @@ Developed by a cross-university team as part of **Verizon AI Studio**:
 - Aastha Oza — University of Houston  
 - Valantina Zeremariam — Vassar College  
 - Kalyn Bui — San Jose State University  
-- **Anahi Perez — Emory University**  
+- Anahi Perez — Emory University
 - Chris Dollo — University of Maryland, Baltimore County  
 - Kenzy Ibrahim — George Mason University  
 
