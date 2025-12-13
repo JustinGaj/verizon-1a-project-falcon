@@ -23,19 +23,14 @@ Each year, **4–40 million bird deaths** are attributed to cell towers. Project
 
 ---
 
-## 🧠 Model Architecture
-Project Falcon uses **YOLOv8 (You Only Look Once)** — a state-of-the-art real-time object detection model optimized for:
-- High detection accuracy
-- Low inference latency
-- Scalability across large image pipelines
-
-### Supported Tasks
-1. **Nest Detection** (Binary Object Detection)
-2. **Bird Detection**
-3. **Bird Species Classification** (Optional Extension)
+## 🌟 Project Highlights
+- Built an **end-to-end YOLOv8 pipeline** from raw data ingestion to model evaluation
+- Cleaned and standardized **multiple heterogeneous datasets**
+- Achieved **high-precision nest detection (95%+)**
+- Demonstrated that **data quality outweighed model complexity**
+- Delivered clear **business and conservation impact**
 
 ---
-
 
 ## 🗂️ Datasets  
 Our project leverages multiple datasets, merged and standardized into YOLOv8 format:  
@@ -51,28 +46,51 @@ Each dataset varied significantly in quality, annotation style, and format, requ
 ## 🔧 Data Preparation Pipeline
 A major focus of the project was **data quality and standardization**, which had a greater impact on model performance than architecture complexity.
 
-### Key Steps
-- **Annotation Conversion**  
-  Converted all datasets to YOLOv8 `.txt` format
-- **Class Standardization**  
-  Unified labels into core classes: `bird`, `nest`, and species labels
-- **Data Cleaning**  
-  Removed corrupted, duplicated, blurry, and low-quality images
-- **Data Augmentation**
-  - Horizontal flips  
-  - Small rotations  
-  - Brightness & contrast adjustments  
+### Key Preparation Steps
+- Converted all annotations to YOLOv8 `.txt` format
+- Standardized labels (`bird`, `nest`, species-level classes)
+- Removed corrupted, duplicated, blurry, and incompatible images
+- Applied augmentation:
+  - Horizontal flips
+  - Small rotations
+  - Brightness & contrast adjustments
   - YOLOv8 mosaic augmentation
-- **Dataset Splitting**
-  - Training: 80%  
-  - Validation: 10%  
-  - Test: 10%
+- Split datasets into Train (80%), Validation (10%), Test (10%)
+
+**Insight:** Proper cleaning and formatting had a greater effect on model performance than increasing model complexity.
 
 Tools used: OpenCV, Pillow, Roboflow, Google Colab
 
 ---
+## 🧠 Model Architecture
+Project Falcon uses **YOLOv8 (You Only Look Once)** — a state-of-the-art real-time object detection model optimized for:
+- High detection accuracy
+- Low inference latency
+- Scalability across large image pipelines
 
-## 📊 Model Evaluation & Metrics
+### Supported Tasks
+1. **Nest Detection** (Binary Object Detection)
+2. **Bird Detection**
+3. **Bird Species Classification** (Optional Extension)
+
+---
+## 🧠 Model Development
+Project Falcon uses **YOLOv8 (You Only Look Once)**, a state-of-the-art real-time object detection model chosen for its balance of speed, accuracy, and scalability.
+
+### Supported Tasks
+1. **Nest Detection** (Binary Object Detection)
+2. **Bird Detection**
+3. **Bird Species Classification** (Optional Extension)
+
+### Training Approach
+- Trained YOLOv8 models on cleaned and augmented datasets
+- Tuned confidence thresholds to reduce false positives
+- Evaluated predictions against ground-truth annotations
+- Iteratively refined preprocessing and training configurations
+
+---
+
+## 📊 Results & Key Findings
 
 ### 🪹 Nest Detection (Binary Classification)
 - **Precision:** 95.41%  
@@ -86,26 +104,6 @@ Tools used: OpenCV, Pillow, Roboflow, Google Colab
 - **Detection Recall:** 92.8%
 
 A **40% confidence-gating mechanism** was implemented to suppress low-confidence predictions and reduce false positives on ambiguous images (e.g., camouflage, blur).
-
----
-
-## 💼 Business & Operational Impact
-Project Falcon delivers measurable value across multiple dimensions:
-
-- **Time Savings**  
-  Automated detection allows maintenance scheduling around nesting cycles.
-
-- **Legal & Regulatory Protection**  
-  Accurate identification reduces the risk of violating federal wildlife laws.
-
-- **Cost Reduction**  
-  Decreases reliance on costly manual inspections and repeat site visits.
-
-- **Operational Efficiency**  
-  Enables scalable processing of thousands of image feeds.
-
-- **Wildlife Conservation**  
-  Supports conservation-aligned operations and environmental responsibility goals.
 
 ---
 
@@ -136,14 +134,37 @@ Planned and proposed extensions include:
 ## 👥 Team
 Developed by a cross-university team as part of **Verizon AI Studio**:
 
-- Justin Gajewski — Stevens Institute of Technology  
-- Ayooluwa Olotu — Howard University  
-- Aastha Oza — University of Houston  
-- Valantina Zeremariam — Vassar College  
-- Kalyn Bui — San Jose State University  
-- Anahi Perez — Emory University
-- Chris Dollo — University of Maryland, Baltimore County  
-- Kenzy Ibrahim — George Mason University  
+- **Justin Gajewski** — Stevens Institute of Technology  
+  GitHub: https://github.com/JustinGaj  
+  Contributions: Project coordination, model research, YOLOv8 experimentation, evaluation support
+
+- **Ayooluwa Olotu** — Howard University  
+  GitHub: https://github.com/ayoolotu
+  Contributions: Data cleaning, annotation standardization, dataset validation 
+
+- **Aastha Oza** — University of Houston  
+  GitHub: https://github.com/AasthaOza21  
+  Contributions: Dataset exploration, data preprocessing, augmentation strategies
+
+- **Valantina Zeremariam** — Vassar College  
+  GitHub: https://github.com/zeremariamvalantina  
+  Contributions: End-to-end pipeline development, dataset integration, YOLOv8 training, model refinement, metrics analysis
+
+- **Kalyn Bui** — San Jose State University  
+  GitHub: https://github.com/USERNAME_HERE  
+  Contributions: Label standardization, evaluation analysis, performance tuning, evaluation metrics
+
+- **Anahi Perez** — Emory University  
+  GitHub: https://github.com/aperez404  
+  Contributions: Project coordination, Dataset Exploration, Data cleaning, preprocessing support, augmentation strategies
+
+- **Chris Dollo** — University of Maryland, Baltimore County  
+  GitHub: https://github.com/chrisdollo  
+  Contributions: Dataset exploration, data preprocessing, augmentation strategies
+
+- **Kenzy Ibrahim** — George Mason University  
+  GitHub: https://github.com/Kenzyi2024  
+  Contributions: Dataset integration, YOLOv8 training, model refinement, metrics analysis
 
 ---
 
