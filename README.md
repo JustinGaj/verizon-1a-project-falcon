@@ -1,4 +1,4 @@
-# 🦅 Project Falcon  
+# 🦅 Project Falcon - Verizon
 ## AI-Driven Bird & Nest Detection on Cell Towers (YOLOv8)
 
 ## 📌 Overview
@@ -150,7 +150,7 @@ All tools reflect **industry-standard workflows** for scalable computer vision s
 
 ---
 
-## 🚀 Future Work
+## 🚀 Next Steps
 Planned and proposed extensions include:
 - Detecting whether a **cell tower structure** is present before wildlife detection
 - Integrating **audio-based cues** for bird species classification
