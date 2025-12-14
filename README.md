@@ -2,7 +2,7 @@
 ## AI-Driven Bird & Nest Detection on Cell Towers (YOLOv8)
 
 ## 📌 Overview
-**Project Falcon** is an end-to-end computer vision system developed as part of the **Verizon AI Studio Final Project**. The project applies deep learning to automatically detect **birds, bird nests, and bird species** on cell towers using image data.
+**Project Falcon** is an end-to-end computer vision system developed as part of the **Verizon AI Studio Final Project** for **Break Through Tech**, an AI fellowship hosted by **Cornell Tech**. The project applies deep learning to automatically detect **birds, bird nests, and bird species** on cell towers using image data.
 
 The system is designed to help telecommunications providers:
 - Protect avian wildlife
