@@ -52,10 +52,21 @@ Developed by a cross-university team as part of **Verizon AI Studio**:
 
 **How to reproduce our results:**
 
+
 * How to clone the repository
+   ```bash
+   git clone https://github.com/JustinGaj/verizon-1a-project-falcon.git
+   cd verizon-1a-project-falcon
 * How to install dependencies
+  pip install -r requirements.txt
 * How to set up the environment
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # macOS/Linux
+   venv\Scripts\activate   # Windows
+   
 * How to access the dataset(s)
+  
 * How to run the notebook or scripts
 
 ---
