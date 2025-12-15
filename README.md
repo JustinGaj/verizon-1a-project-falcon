@@ -50,8 +50,7 @@ Developed by a cross-university team as part of **Verizon AI Studio**:
 
 ## 👩🏽‍💻 **Setup and Installation**
 
-Example edit this
-**How to reproduce our results. Depending on your setup, include:**
+**How to reproduce our results:**
 
 * How to clone the repository
 * How to install dependencies
